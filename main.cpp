@@ -144,7 +144,8 @@ int main() {
 
     std::vector<double> finalAB;
     finalAB = LeastSquareFitLine( P, a_and_b[0], a_and_b[1], smallest_error );
-    std::cout << finalAB[0] << std::endl << finalAB[1] << std::endl;
+    std::cout << "a = " << finalAB[0] << std::endl
+              << "b = " << finalAB[1] << std::endl;
 
     return 0;
 }
